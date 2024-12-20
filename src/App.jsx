@@ -6,6 +6,9 @@ import {Toggle} from './overview/Layout'
 import Exit from './overview/Exit'
 import MotionOne from './motion/motionOne'
 import Samples from './motion/Samples'
+import Keyframes from './motion/Keyframes'
+import Variants from './motion/Variants'
+import Drag from './motion/Drag'
 
 function App() {
 
@@ -16,7 +19,10 @@ function App() {
       {/* <Toggle /> */}
       {/* <Exit /> */}
       {/* <MotionOne /> */}
-      <Samples />
+      {/* <Samples /> */}
+      {/* <Keyframes /> */}
+      {/* <Variants /> */}
+      <Drag />
     </div> 
   )
 }
