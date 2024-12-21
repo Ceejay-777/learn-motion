@@ -9,11 +9,13 @@ import Samples from './motion/Samples'
 import Keyframes from './motion/Keyframes'
 import Variants from './motion/Variants'
 import Drag from './motion/Drag'
+import ScrollOne from './motion/ScrollOne'
+import AniPresence from './projects/AniPresence'
 
 function App() {
 
   return (
-    <div>
+    <div className='w-screen min-h-screen'>
       {/* <Overview /> */}
       {/* <Scroll /> */}
       {/* <Toggle /> */}
@@ -22,7 +24,10 @@ function App() {
       {/* <Samples /> */}
       {/* <Keyframes /> */}
       {/* <Variants /> */}
-      <Drag />
+      {/* <Drag /> */}
+      {/* <ScrollOne /> */}
+      {/* <AniPresence /> */}
+      <StackOne />
     </div> 
   )
 }
