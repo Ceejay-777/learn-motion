@@ -11,11 +11,14 @@ import Variants from './motion/Variants'
 import Drag from './motion/Drag'
 import ScrollOne from './motion/ScrollOne'
 import AniPresence from './projects/AniPresence'
+import StackOne from './projects/StackOne'
+import SpinShow from './projects/SpinShow'
+import TapSequence from './projects/TapSequence'
 
 function App() {
 
   return (
-    <div className='w-screen min-h-screen'>
+    <div>
       {/* <Overview /> */}
       {/* <Scroll /> */}
       {/* <Toggle /> */}
@@ -27,7 +30,9 @@ function App() {
       {/* <Drag /> */}
       {/* <ScrollOne /> */}
       {/* <AniPresence /> */}
-      <StackOne />
+      {/* <StackOne /> */}
+      {/* <SpinShow /> */}
+      <TapSequence />
     </div> 
   )
 }
