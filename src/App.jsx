@@ -14,6 +14,8 @@ import AniPresence from './projects/AniPresence'
 import StackOne from './projects/StackOne'
 import SpinShow from './projects/SpinShow'
 import TapSequence from './projects/TapSequence'
+import AspectRatio from './projects/AspectRatio'
+import Interpolations from './projects/Interpolations'
 
 function App() {
 
@@ -32,7 +34,9 @@ function App() {
       {/* <AniPresence /> */}
       {/* <StackOne /> */}
       {/* <SpinShow /> */}
-      <TapSequence />
+      {/* <TapSequence /> */}
+      {/* <AspectRatio /> */}
+      <Interpolations />
     </div> 
   )
 }
