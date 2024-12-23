@@ -16,6 +16,8 @@ import SpinShow from './projects/SpinShow'
 import TapSequence from './projects/TapSequence'
 import AspectRatio from './projects/AspectRatio'
 import Interpolations from './projects/Interpolations'
+import SpinInterpolation from './projects/SpinInterpolation'
+import SwitchingStates from './projects/SwitchingStates'
 
 function App() {
 
@@ -36,7 +38,9 @@ function App() {
       {/* <SpinShow /> */}
       {/* <TapSequence /> */}
       {/* <AspectRatio /> */}
-      <Interpolations />
+      {/* <Interpolations /> */}
+      {/* <SpinInterpolation /> */}
+      <SwitchingStates />
     </div> 
   )
 }

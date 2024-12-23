@@ -899,6 +899,11 @@ video {
   border-color: rgb(250 204 21 / var(--tw-border-opacity, 1));
 }
 
+.bg-\[\#60f\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(102 0 255 / var(--tw-bg-opacity, 1));
+}
+
 .bg-\[\#6600FF\] {
   --tw-bg-opacity: 1;
   background-color: rgb(102 0 255 / var(--tw-bg-opacity, 1));
@@ -984,6 +989,10 @@ video {
 .bg-zinc-700 {
   --tw-bg-opacity: 1;
   background-color: rgb(63 63 70 / var(--tw-bg-opacity, 1));
+}
+
+.bg-\[\] {
+  background-color: ;
 }
 
 .bg-gradient-to-b {
