@@ -9,7 +9,7 @@ const SwitchingStates = () => {
        ["#0bf", "#60f"]
      );
   return (
-    <motion.main className='w-screen min-h-screen flex justify-center items-center bg-[#60f]' style={{backgroundColor}} transition={{duration: 0.5}}>
+    <motion.main className='w-screen min-h-screen flex justify-center items-center bg-[#60f]' style={{backgroundColor}} >
         <motion.div className='w-36 h-36 rounded-3xl bg-white' whileHover={{scale: 0.8, rotate: 90}} style={{rotate}}/>
     </motion.main>
   )

@@ -18,6 +18,7 @@ import AspectRatio from './projects/AspectRatio'
 import Interpolations from './projects/Interpolations'
 import SpinInterpolation from './projects/SpinInterpolation'
 import SwitchingStates from './projects/SwitchingStates'
+import SwitchingVariants from './projects/SwitchingVariants'
 
 function App() {
 
@@ -40,7 +41,8 @@ function App() {
       {/* <AspectRatio /> */}
       {/* <Interpolations /> */}
       {/* <SpinInterpolation /> */}
-      <SwitchingStates />
+      {/* <SwitchingStates /> */}
+      <SwitchingVariants />
     </div> 
   )
 }
